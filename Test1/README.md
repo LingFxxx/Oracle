@@ -12,7 +12,7 @@ GROUP BY department_name;
 ```
 
 运行结果如下：
-![查询 1](https://github.com/LingFxxx/Oracle/edit/master/Test1/01.png '查询 1 结果')
+![](./01.png '查询 1 结果')
 
 -查询 2：
 
@@ -26,7 +26,7 @@ HAVING d.department_name in ('IT'，'Sales');
 ```
 
 运行结果如下：
-![](./01.png '查询 1 结果')
+![](./02.png '查询 2 结果')
 
 
 
@@ -43,6 +43,8 @@ HAVING R.REGION_ID IN ('1', '3');
 ```
 
 运行结果如下：
-![](./01.png '查询 1 结果')
+![](./03.png '自定义查询结果')
 
 
+
+该条查询语句的作用：查询ID为1和3的所在地区的国家数目。
