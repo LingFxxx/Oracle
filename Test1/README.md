@@ -12,7 +12,7 @@ GROUP BY department_name;
 ```
 
 运行结果如下：
-![](./01.png '查询 1 结果')
+![查询 1](https://github.com/LingFxxx/Oracle/edit/master/Test1/01.png '查询 1 结果')
 
 -查询 2：
 
