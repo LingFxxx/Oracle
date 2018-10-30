@@ -24,7 +24,7 @@ SQL> exit
 运行结果：
 
 ![](./1.jpg '结果')
-![](./2.jpg '结果')
+
 
 步骤二：新用户new_user连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
 
@@ -51,6 +51,7 @@ SQL>exit
 ```
 运行结果：
 
+![](./2.jpg '结果')
 ![](./3.jpg '结果')
 
 步骤三：用户hr连接到pdborcl，查询new_user授予它的视图myview
